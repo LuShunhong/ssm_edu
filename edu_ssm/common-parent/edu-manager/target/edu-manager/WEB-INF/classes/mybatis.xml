@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--别名配置-->
+    <typeAliases>
+        <!--批量配置别名:指定批量配置别名的类爆，别名为列名-->
+        <package name="org.hong.edu.model"/>
+    </typeAliases>
+    <mappers>
+        <!--批量加载映射文件-->
+        <package name="org.hong.edu.mapper"/>
+    </mappers>
+</configuration>
